@@ -32,11 +32,11 @@
   "@close": {
     "description": "Botó de tancar"
   },
-  "addIncome": "Afegir Ingres",
+  "addIncome": "Afegir Ingrés",
   "@addIncome": {
     "description": "Títol del diàleg per afegir ingres"
   },
-  "addExpense": "Afegir Despesa",
+  "addExpense": "Afegir Despessa",
   "@addExpense": {
     "description": "Títol del diàleg per afegir despesa"
   },
@@ -54,22 +54,508 @@
   },
   "searchCategory": "Categoria",
   "@searchCategory": {
-    "description": "etiqueta de categoria"
+    "description": "Etiqueta de categoria"
   },
   "register": "Registre",
   "@register": {
-    "description": "etiqueta de registre"
+    "description": "Etiqueta de registre"
   },
   "logout": "Desconexió",
   "@logout": {
-    "description": "etiqueta de desconexió"
+    "description": "Etiqueta de desconexió"
   },
   "changeLanguage": "Llengua",
   "@changeLanguage": {
-    "description": "etiqueta de llengua"
+    "description": "Etiqueta de llengua"
   },
   "localeName": "ca",
   "@localeName": {
     "description": "Abreviació de la llengua"
+  },
+
+  // Categorías añadidas
+  "salary": "Salari",
+  "@salary": {
+    "description": "Text per al salari"
+  },
+  "bizumToMe": "Bizum (Em paguen)",
+  "@bizumToMe": {
+    "description": "Text per a Bizum (quan et paguen)"
+  },
+  "savesToMe": "Estalvis (Ingrés al compte)",
+  "@savesToMe": {
+    "description": "Text per als estalvis (ingrés al compte)"
+  },
+  "investToMe": "Inversió (Ingrés al compte)",
+  "@investToMe": {
+    "description": "Text per a inversió (ingrés al compte)"
+  },
+  "rent": "Lloguer",
+  "@rent": {
+    "description": "Text per al lloguer"
+  },
+  "sellHouse": "Venda immoble",
+  "@sellHouse": {
+    "description": "Text per a la venda d'immoble"
+  },
+  "loanToMe": "Préstec/Hipoteca (Quan m'ingressen)",
+  "@loanToMe": {
+    "description": "Text per a préstec/hipoteca (quan t'ingressen)"
+  },
+  "taxRefound": "Renda (A retornar)",
+  "@taxRefound": {
+    "description": "Text per a renda (a retornar)"
+  },
+  "savesToSave": "Estalvia (Ingrés en un altre compte)",
+  "@savesToSave": {
+    "description": "Text per a estalvi (ingrés en un altre compte)"
+  },
+  "investToInvest": "Inversió (Ingrés en compte d'inversió)",
+  "@investToInvest": {
+    "description": "Text per a inversió (ingrés en compte d'inversió)"
+  },
+  "bizumToOthers": "Bizum (Pagament)",
+  "@bizumToOthers": {
+    "description": "Text per a Bizum (pagament)"
+  },
+  "buyHouse": "Compra immoble",
+  "@buyHouse": {
+    "description": "Text per a la compra d'immoble"
+  },
+  "travel": "Viatges",
+  "@travel": {
+    "description": "Text per als viatges"
+  },
+  "food": "Menjar",
+  "@food": {
+    "description": "Text per al menjar"
+  },
+  "clothes": "Compra roba",
+  "@clothes": {
+    "description": "Text per a la compra de roba"
+  },
+  "homeEssentials": "Compra menatge de la llar",
+  "@homeEssentials": {
+    "description": "Text per a la compra de menatge de la llar"
+  },
+  "Gym": "Gimnàs",
+  "@Gym": {
+    "description": "Text per al gimnàs"
+  },
+  "Football": "Futbol",
+  "@Football": {
+    "description": "Text per al futbol"
+  },
+  "Basket": "Bàsquet",
+  "@Basket": {
+    "description": "Text per al bàsquet"
+  },
+  "swim": "Natació",
+  "@swim": {
+    "description": "Text per a la natació"
+  },
+  "Rugby": "Rugbi",
+  "@Rugby": {
+    "description": "Text per al rugbi"
+  },
+  "running": "Atletisme",
+  "@running": {
+    "description": "Text per a l'atletisme"
+  },
+  "Hockey": "Hoquei",
+  "@Hockey": {
+    "description": "Text per a l'hoquei"
+  },
+  "Ballet": "Ballet",
+  "@Ballet": {
+    "description": "Text per al ballet"
+  },
+  "rhythmic": "Gimnàstica rítmica",
+  "@rhythmic": {
+    "description": "Text per a la gimnàstica rítmica"
+  },
+  "furniture": "Compra mobles",
+  "@furniture": {
+    "description": "Text per a la compra de mobles"
+  },
+  "toys": "Compra joguines",
+  "@toys": {
+    "description": "Text per a la compra de joguines"
+  },
+  "baby": "Bolquers o coses per al nadó",
+  "@baby": {
+    "description": "Text per a bolquers o coses per al nadó"
+  },
+  "paint": "Pintura",
+  "@paint": {
+    "description": "Text per a la pintura"
+  },
+  "restaurant": "Restaurant",
+  "@restaurant": {
+    "description": "Text per a sortida a restaurant"
+  },
+  "train": "Transport públic",
+  "@train": {
+    "description": "Text per al transport públic"
+  },
+  "car": "Cotxe",
+  "@car": {
+    "description": "Text per al cotxe"
+  },
+  "moto": "Moto",
+  "@moto": {
+    "description": "Text per a la moto"
+  },
+  "bici": "Bici",
+  "@bici": {
+    "description": "Text per a la bici"
+  },
+  "diesel": "Gasolina",
+  "@diesel": {
+    "description": "Text per a la gasolina"
+  },
+  "electricCar": "Electricitat cotxe",
+  "@electricCar": {
+    "description": "Text per a l'electricitat del cotxe"
+  },
+  "light": "Llum",
+  "@light": {
+    "description": "Text per a la llum"
+  },
+  "Gas": "Gas",
+  "@Gas": {
+    "description": "Text per al gas"
+  },
+  "water": "Aigua",
+  "@water": {
+    "description": "Text per a l'aigua"
+  },
+  "pictures": "Fotos",
+  "@pictures": {
+    "description": "Text per a les fotos"
+  },
+  "video": "Vídeo",
+  "@video": {
+    "description": "Text per al vídeo"
+  },
+  "wedding": "Boda",
+  "@wedding": {
+    "description": "Text per a la boda"
+  },
+  "baptism": "Bateig",
+  "@baptism": {
+    "description": "Text per al bateig"
+  },
+  "communion": "Comunió",
+  "@communion": {
+    "description": "Text per a la comunió"
+  },
+  "camping": "Acampada",
+  "@camping": {
+    "description": "Text per a l'acampada"
+  },
+  "cat": "Gats",
+  "@cat": {
+    "description": "Text per als gats"
+  },
+  "dog": "Gossos",
+  "@dog": {
+    "description": "Text per als gossos"
+  },
+  "animals": "Altres animals",
+  "@animals": {
+    "description": "Text per a altres animals"
+  },
+  "coffee": "Cafè",
+  "@coffee": {
+    "description": "Text per al cafè"
+  },
+  "phone": "Telèfon",
+  "@phone": {
+    "description": "Text per al telèfon"
+  },
+  "pots": "Olles",
+  "@pots": {
+    "description": "Text per a les olles"
+  },
+  "plate": "Plats",
+  "@plate": {
+    "description": "Text per als plats"
+  },
+  "card": "Targeta de crèdit",
+  "@card": {
+    "description": "Text per a la targeta de crèdit"
+  },
+  "device": "Dispositius electrònics",
+  "@device": {
+    "description": "Text per als dispositius electrònics"
+  },
+  "doctor": "Sanitat",
+  "@doctor": {
+    "description": "Text per a la sanitat"
+  },
+  "pc": "Ordinador",
+  "@pc": {
+    "description": "Text per a l'ordinador"
+  },
+  "Netflix o plataformas similares": "Netflix o plataformes similars",
+  "@Netflix o plataformas similares": {
+    "description": "Text per a Netflix o plataformes similars"
+  },
+  "Discoteca": "Discoteca",
+  "@Discoteca": {
+    "description": "Text per a la discoteca"
+  },
+  "Drogas": "Drogues",
+  "@Drogas": {
+    "description": "Text per a les drogues"
+  },
+  "Cine": "Cinema",
+  "@Cine": {
+    "description": "Text per al cinema"
+  },
+  "Regalo": "Regal",
+  "@Regalo": {
+    "description": "Text per al regal"
+  },
+  "Música": "Música",
+  "@Música": {
+    "description": "Text per a la música"
+  },
+  "Videojuegos": "Videojocs",
+  "@Videojuegos": {
+    "description": "Text per als videojocs"
+  },
+  "Caballos": "Cavalls",
+  "@Caballos": {
+    "description": "Text per als cavalls"
+  },
+  "Libros": "Llibres",
+  "@Libros": {
+    "description": "Text per als llibres"
+  },
+  "Multas": "Multes",
+  "@Multas": {
+    "description": "Text per a les multes"
+  },
+  "Arma de fuego": "Arma de foc",
+  "@Arma de fuego": {
+    "description": "Text per a l'arma de foc"
+  },
+  "Arma blanca": "Arma blanca",
+  "@Arma blanca": {
+    "description": "Text per a l'arma blanca"
+  },
+  "Fontanero": "Fontaner",
+  "@Fontanero": {
+    "description": "Text per al fontaner"
+  },
+  "Electricista": "Electricista",
+  "@Electricista": {
+    "description": "Text per a l'electricista"
+  },
+  "Carpintero": "Fuster",
+  "@Carpintero": {
+    "description": "Text per al fuster"
+  },
+  "Albañil": "Paleta",
+  "@Albañil": {
+    "description": "Text per al paleta"
+  },
+  "Ski": "Esquí",
+  "@Ski": {
+    "description": "Text per a l'esquí"
+  },
+  "Bolsos": "Bosses",
+  "@Bolsos": {
+    "description": "Text per a les bosses"
+  },
+  "Fumar cigarro": "Fumar cigarret",
+  "@Fumar cigarro": {
+    "description": "Text per a fumar cigarret"
+  },
+  "Fumar Vaper": "Fumar Vaper",
+  "@Fumar Vaper": {
+    "description": "Text per a fumar Vaper"
+  },
+  "Frutas": "Fruites",
+  "@Frutas": {
+    "description": "Text per a les fruites"
+  },
+  "Verduras": "Verdures",
+  "@Verduras": {
+    "description": "Text per a les verdures"
+  },
+  "Ternera": "Vedella",
+  "@Ternera": {
+    "description": "Text per a la vedella"
+  },
+  "Pollo": "Pollastre",
+  "@Pollo": {
+    "description": "Text per al pollastre"
+  },
+  "Cerdo": "Porc",
+  "@Cerdo": {
+    "description": "Text per al porc"
+  },
+  "Universidad": "Universitat",
+  "@Universidad": {
+    "description": "Text per a la universitat"
+  },
+  "Colegio": "Col·legi",
+  "@Colegio": {
+    "description": "Text per al col·legi"
+  },
+  "Guarderia": "Guarderia",
+  "@Guarderia": {
+    "description": "Text per a la guarderia"
+  },
+  "Sushi": "Sushi",
+  "@Sushi": {
+    "description": "Text per al sushi"
+  },
+  "Paella": "Paella",
+  "@Paella": {
+    "description": "Text per a la paella"
+  },
+  "Spaghettis": "Espaguetis",
+  "@Spaghettis": {
+    "description": "Text per als espaguetis"
+  },
+  "Taxi": "Taxi",
+  "@Taxi": {
+    "description": "Text per al taxi"
+  },
+  "Uber": "Uber",
+  "@Uber": {
+    "description": "Text per a Uber"
+  },
+  "Cabify": "Cabify",
+  "@Cabify": {
+    "description": "Text per a Cabify"
+  },
+  "Glovo": "Glovo",
+  "@Glovo": {
+    "description": "Text per a Glovo"
+  },
+  "Uber eats": "Uber eats",
+  "@Uber eats": {
+    "description": "Text per a Uber eats"
+  },
+  "Neumáticos": "Neumàtics",
+  "@Neumáticos": {
+    "description": "Text per als neumàtics"
+  },
+  "Mecánico": "Mecànic",
+  "@Mecánico": {
+    "description": "Text per al mecànic"
+  },
+  "Zapatos": "Sabates",
+  "@Zapatos": {
+    "description": "Text per a les sabates"
+  },
+  "Dentista": "Dentista",
+  "@Dentista": {
+    "description": "Text per al dentista"
+  },
+  "Museo": "Museu",
+  "@Museo": {
+    "description": "Text per al museu"
+  },
+  "San Valentin": "Sant Valentí",
+  "@San Valentin": {
+    "description": "Text per a Sant Valentí"
+  },
+  "Hotel": "Hotel",
+  "@Hotel": {
+    "description": "Text per a l'hotel"
+  },
+  "Tren": "Tren",
+  "@Tren": {
+    "description": "Text per al tren"
+  },
+  "Barco": "Vaixell",
+  "@Barco": {
+    "description": "Text per al vaixell"
+  },
+  "Alcohol": "Alcohol",
+  "@Alcohol": {
+    "description": "Text per a l'alcohol"
+  },
+  "Crossfit": "Crossfit",
+  "@Crossfit": {
+    "description": "Text per al crossfit"
+  },
+  "Internet": "Internet",
+  "@Internet": {
+    "description": "Text per a Internet"
+  },
+  "Peluqueria": "Perruqueria",
+  "@Peluqueria": {
+    "description": "Text per a la perruqueria"
+  },
+  "In vitro": "In vitro",
+  "@In vitro": {
+    "description": "Text per a in vitro"
+  },
+  "Vestidos": "Vestits",
+  "@Vestidos": {
+    "description": "Text per als vestits"
+  },
+  "Zapatos mujer": "Sabates de dona",
+  "@Zapatos mujer": {
+    "description": "Text per a les sabates de dona"
+  },
+  "Jardinero": "Jardiner",
+  "@Jardinero": {
+    "description": "Text per al jardiner"
+  },
+  "Helados": "Gelats",
+  "@Helados": {
+    "description": "Text per als gelats"
+  },
+  "Lavanderia": "Lavanderia",
+  "@Lavanderia": {
+    "description": "Text per a la lavanderia"
+  },
+  "Plancha": "Planxa",
+  "@Plancha": {
+    "description": "Text per a la planxa"
+  },
+  "Costura": "Costura",
+  "@Costura": {
+    "description": "Text per a la costura"
+  },
+  "Optica": "Òptica",
+  "@Optica": {
+    "description": "Text per a l'òptica"
+  },
+  "Amazon": "Amazon",
+  "@Amazon": {
+    "description": "Text per a Amazon"
+  },
+  "Renta (A pagar)": "Renda (A pagar)",
+  "@Renta (A pagar)": {
+    "description": "Text per a la renda (a pagar)"
+  },
+  "Sexo": "Sexe",
+  "@Sexo": {
+    "description": "Text per al sexe"
+  },
+  "Idiomas": "Idiomes",
+  "@Idiomas": {
+    "description": "Text per als idiomes"
+  },
+  "PS Plus": "PS Plus",
+  "@PS Plus": {
+    "description": "Text per a PS Plus"
+  },
+  "Xbox pass": "Xbox pass",
+  "@Xbox pass": {
+    "description": "Text per a Xbox pass"
+  },
+  "Nintendo": "Nintendo",
+  "@Nintendo": {
+    "description": "Text per a Nintendo"
   }
 }

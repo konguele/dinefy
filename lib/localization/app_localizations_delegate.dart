@@ -14,6 +14,8 @@ class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
     return AppLocalizations.load(locale);
   }
 
-  @override
-  bool shouldReload(AppLocalizationsDelegate old) => false;
+    @override
+  bool shouldReload(covariant LocalizationsDelegate<AppLocalizations> old) {
+    return false;
+  }
 }

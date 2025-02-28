@@ -30,10 +30,21 @@ class MoneyfyApp extends StatefulWidget {
 class _MoneyfyAppState extends State<MoneyfyApp> {
   Locale _locale = Locale('es', ''); // Idioma predeterminado: Español
 
-  void _changeLanguage(Locale newLocale) {
-    setState(() {
-      _locale = newLocale;
-    });
+  void _changeLanguage(Locale newLocale) async {
+    // Crear una instancia del delegado
+    final delegate = AppLocalizationsDelegate();
+
+    // Cargar las traducciones para el nuevo idioma
+    final localizations = await delegate.load(newLocale);
+
+    if (localizations == null) {
+      debugPrint('Error: No se pudieron cargar las traducciones para ${newLocale.languageCode}');
+    } else {
+      debugPrint('Idioma cambiado a ${newLocale.languageCode}');
+      setState(() {
+        _locale = newLocale;
+      });
+    }
   }
 
   @override
@@ -67,12 +78,12 @@ class _MoneyfyAppState extends State<MoneyfyApp> {
         AppLocalizationsDelegate(), // Delegado personalizado para AppLocalizations
         GlobalMaterialLocalizations.delegate, // Delegado para Material Localizations
         GlobalWidgetsLocalizations.delegate, // Delegado para Widgets Localizations
+        GlobalCupertinoLocalizations.delegate, // Delegado para Cupertino Localizations
       ],
       supportedLocales: [
         Locale('es', ''), // Español
         Locale('ca', ''), // Catalán
         Locale('eu', ''), // Euskera
-        Locale('ga', ''), // Gallego
         Locale('en', ''), // Inglés
         Locale('fr', ''), // Francés
         Locale('it', ''), // Italiano

@@ -10,7 +10,6 @@ class LanguageSelector extends StatelessWidget {
     {'code': 'es', 'name': 'Español', 'flag': '🇪🇸'},
     {'code': 'ca', 'name': 'Català', 'flag': '🇦🇩'},
     {'code': 'eu', 'name': 'Euskara', 'flag': '🇪🇸'},
-    {'code': 'ga', 'name': 'Galego', 'flag': '🇪🇸'},
     {'code': 'en', 'name': 'English', 'flag': '🇺🇸'},
     {'code': 'fr', 'name': 'Français', 'flag': '🇫🇷'},
     {'code': 'it', 'name': 'Italiano', 'flag': '🇮🇹'},

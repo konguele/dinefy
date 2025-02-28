@@ -7,7 +7,11 @@ class CustomDropdownMenu extends StatelessWidget {
   final String username;
   final Function(Locale) changeLanguage; // Nuevo parámetro
 
-  CustomDropdownMenu({required this.isLoggedIn, required this.username, required this.changeLanguage});
+  CustomDropdownMenu({
+    required this.isLoggedIn,
+    required this.username,
+    required this.changeLanguage,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +41,7 @@ class CustomDropdownMenu extends StatelessWidget {
                         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                       ),
                       child: Text(
-                        AppLocalizations.of(context)!.register,
+                        AppLocalizations.of(context).register, // Usar traducción
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
@@ -51,7 +55,7 @@ class CustomDropdownMenu extends StatelessWidget {
               value: 'logout',
               child: ListTile(
                 leading: Icon(Icons.logout),
-                title: Text(AppLocalizations.of(context)!.logout),
+                title: Text(AppLocalizations.of(context).logout), // Usar traducción
                 onTap: () {
                   Navigator.pop(context); // Cerrar el menú
                   // Lógica para cerrar sesión
