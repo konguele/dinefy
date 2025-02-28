@@ -1,0 +1,75 @@
+{
+  "@@locale": "es",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "Título de la aplicación"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "Texto para el balance"
+  },
+  "income": "Ingresos",
+  "@income": {
+    "description": "Texto para ingresos"
+  },
+  "expense": "Gastos",
+  "@expense": {
+    "description": "Texto para gastos"
+  },
+  "addTransaction": "Añadir Transacción",
+  "@addTransaction": {
+    "description": "Texto para añadir transacción"
+  },
+  "noData": "No hay datos",
+  "@noData": {
+    "description": "Texto para cuando no hay datos"
+  },
+  "transactionsTitle": "Transacciones del día",
+  "@transactionsTitle": {
+    "description": "Título del diálogo de transacciones"
+  },
+  "close": "Cerrar",
+  "@close": {
+    "description": "Botón de cerrar"
+  },
+  "addIncome": "Añadir Ingreso",
+  "@addIncome": {
+    "description": "Título del diálogo de añadir ingreso"
+  },
+  "addExpense": "Añadir Gasto",
+  "@addExpense": {
+    "description": "Título del diálogo de añadir gasto"
+  },
+  "amount": "Importe (€)",
+  "@amount": {
+    "description": "Etiqueta del campo de importe"
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Botón de cancelar"
+  },
+  "save": "Guardar",
+  "@save": {
+    "description": "Botón de guardar"
+  },
+  "searchCategory": "Categoría",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+  },
+  "register": "Registro",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexión",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Idioma",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "es",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

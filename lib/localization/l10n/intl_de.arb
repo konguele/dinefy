@@ -1,0 +1,75 @@
+{
+  "@@locale": "de",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "App-Titel"
+  },
+  "balance": "Saldo",
+  "@balance": {
+    "description": "Text für Saldo"
+  },
+  "income": "Einkommen",
+  "@income": {
+    "description": "Text für Einkommen"
+  },
+  "expense": "Ausgaben",
+  "@expense": {
+    "description": "Text für Ausgaben"
+  },
+  "addTransaction": "Transaktion hinzufügen",
+  "@addTransaction": {
+    "description": "Text zum Hinzufügen einer Transaktion"
+  },
+  "noData": "Keine Daten",
+  "@noData": {
+    "description": "Text für keine Daten"
+  },
+  "transactionsTitle": "Transaktionen des Tages",
+  "@transactionsTitle": {
+    "description": "Titel des Transaktionsdialogs"
+  },
+  "close": "Schließen",
+  "@close": {
+    "description": "Schließen-Button"
+  },
+  "addIncome": "Einkommen hinzufügen",
+  "@addIncome": {
+    "description": "Titel des Dialogs zum Hinzufügen von Einkommen"
+  },
+  "addExpense": "Ausgabe hinzufügen",
+  "@addExpense": {
+    "description": "Titel des Dialogs zum Hinzufügen von Ausgaben"
+  },
+  "amount": "Betrag (€)",
+  "@amount": {
+    "description": "Beschriftung des Betragsfelds"
+  },
+  "cancel": "Abbrechen",
+  "@cancel": {
+    "description": "Abbrechen-Button"
+  },
+  "save": "Speichern",
+  "@save": {
+    "description": "Speichern-Button"
+  },
+  "searchCategory": "Speichern",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+  },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "de",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

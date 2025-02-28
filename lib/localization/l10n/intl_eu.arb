@@ -1,0 +1,75 @@
+{
+  "@@locale": "eu",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "Aplikazioaren izenburua"
+  },
+  "balance": "Saldoa",
+  "@balance": {
+    "description": "Saldoaren testua"
+  },
+  "income": "Sarrerak",
+  "@income": {
+    "description": "Sarreren testua"
+  },
+  "expense": "Gastuak",
+  "@expense": {
+    "description": "Gastuen testua"
+  },
+  "addTransaction": "Gehitu Transakzioa",
+  "@addTransaction": {
+    "description": "Transakzioa gehitzeko testua"
+  },
+  "noData": "Ez dago daturik",
+  "@noData": {
+    "description": "Daturik ez dagoenean testua"
+  },
+  "transactionsTitle": "Eguneko transakzioak",
+  "@transactionsTitle": {
+    "description": "Transakzioen elkarrizketa-koadroaren izenburua"
+  },
+  "close": "Itxi",
+  "@close": {
+    "description": "Itxi botoia"
+  },
+  "addIncome": "Gehitu Sarrera",
+  "@addIncome": {
+    "description": "Sarrera gehitzeko elkarrizketa-koadroaren izenburua"
+  },
+  "addExpense": "Gehitu Gastua",
+  "@addExpense": {
+    "description": "Gastua gehitzeko elkarrizketa-koadroaren izenburua"
+  },
+  "amount": "Kopurua (€)",
+  "@amount": {
+    "description": "Kopuruaren etiketa"
+  },
+  "cancel": "Utzi",
+  "@cancel": {
+    "description": "Utzi botoia"
+  },
+  "save": "Gorde",
+  "@save": {
+    "description": "Gorde botoia"
+  },
+  "searchCategory": "Speichern",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+  },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "eu",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

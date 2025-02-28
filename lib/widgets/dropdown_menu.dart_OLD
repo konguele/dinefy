@@ -1,0 +1,103 @@
+import 'package:flutter/material.dart';
+import '../localization/app_localizations.dart'; // Importar AppLocalizations
+
+class CustomDropdownMenu extends StatelessWidget {
+  final bool isLoggedIn;
+  final String username;
+
+  CustomDropdownMenu({required this.isLoggedIn, required this.username});
+
+  @override
+  Widget build(BuildContext context) {
+    return PopupMenuButton<String>(
+      icon: Icon(Icons.more_vert),
+      itemBuilder: (BuildContext context) {
+        return [
+          PopupMenuItem<String>(
+            value: 'register',
+            child: Container(
+              width: double.infinity, // Ocupar todo el ancho disponible
+              padding: EdgeInsets.symmetric(vertical: 8),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  if (!isLoggedIn)
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context); // Cerrar el menú
+                        // Lógica para redirigir al registro
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.blue, // Color de fondo
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20), // Bordes redondeados
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                      ),
+                      child: Text(
+                        AppLocalizations.of(context).register,
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pop(context); // Cerrar el menú
+                      // Lógica para cambiar el idioma
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green, // Color de fondo
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20), // Bordes redondeados
+                      ),
+                      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    ),
+                    child: Text(
+                      _getLanguageAbbreviation(AppLocalizations.of(context).localeName),
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (isLoggedIn)
+            PopupMenuItem<String>(
+              value: 'logout',
+              child: ListTile(
+                leading: Icon(Icons.logout),
+                title: Text(AppLocalizations.of(context).logout),
+                onTap: () {
+                  Navigator.pop(context); // Cerrar el menú
+                  // Lógica para cerrar sesión
+                },
+              ),
+            ),
+        ];
+      },
+    );
+  }
+
+  // Función para obtener la abreviatura del idioma
+  String _getLanguageAbbreviation(String localeName) {
+    switch (localeName) {
+      case 'es':
+        return 'ES';
+      case 'ca':
+        return 'CA';
+      case 'eu':
+        return 'EU';
+      case 'gl':
+        return 'GL';
+      case 'en':
+        return 'EN';
+      case 'fr':
+        return 'FR';
+      case 'it':
+        return 'IT';
+      case 'de':
+        return 'DE';
+      default:
+        return 'ES'; // Por defecto, Español
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "@@locale": "ca",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "Títol de l'aplicació"
+  },
+  "balance": "Balanç",
+  "@balance": {
+    "description": "Text per al balanç"
+  },
+  "income": "Ingressos",
+  "@income": {
+    "description": "Text per als ingressos"
+  },
+  "expense": "Despeses",
+  "@expense": {
+    "description": "Text per a les despeses"
+  },
+  "addTransaction": "Afegir Transacció",
+  "@addTransaction": {
+    "description": "Text per afegir transacció"
+  },
+  "noData": "No hi ha dades",
+  "@noData": {
+    "description": "Text per quan no hi ha dades"
+  },
+  "transactionsTitle": "Transaccions del dia",
+  "@transactionsTitle": {
+    "description": "Títol del diàleg de transaccions"
+  },
+  "close": "Tancar",
+  "@close": {
+    "description": "Botó de tancar"
+  },
+  "addIncome": "Afegir Ingres",
+  "@addIncome": {
+    "description": "Títol del diàleg per afegir ingres"
+  },
+  "addExpense": "Afegir Despesa",
+  "@addExpense": {
+    "description": "Títol del diàleg per afegir despesa"
+  },
+  "amount": "Import (€)",
+  "@amount": {
+    "description": "Etiqueta del camp d'import"
+  },
+  "cancel": "Cancel·lar",
+  "@cancel": {
+    "description": "Botó de cancel·lar"
+  },
+  "save": "Guardar",
+  "@save": {
+    "description": "Botó de guardar"
+  },
+  "searchCategory": "Categoria",
+  "@searchCategory": {
+    "description": "etiqueta de categoria"
+  },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "ca",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

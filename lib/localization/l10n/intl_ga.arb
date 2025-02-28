@@ -1,0 +1,75 @@
+{
+  "@@locale": "ga",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "Título da aplicación"
+  },
+  "balance": "Balanzo",
+  "@balance": {
+    "description": "Texto para o balanzo"
+  },
+  "income": "Ingresos",
+  "@income": {
+    "description": "Texto para os ingresos"
+  },
+  "expense": "Gastos",
+  "@expense": {
+    "description": "Texto para os gastos"
+  },
+  "addTransaction": "Engadir Transacción",
+  "@addTransaction": {
+    "description": "Texto para engadir transacción"
+  },
+  "noData": "Non hai datos",
+  "@noData": {
+    "description": "Texto para cando non hai datos"
+  },
+  "transactionsTitle": "Transaccións do día",
+  "@transactionsTitle": {
+    "description": "Título do diálogo de transaccións"
+  },
+  "close": "Pechar",
+  "@close": {
+    "description": "Botón de pechar"
+  },
+  "addIncome": "Engadir Ingreso",
+  "@addIncome": {
+    "description": "Título do diálogo para engadir ingreso"
+  },
+  "addExpense": "Engadir Gasto",
+  "@addExpense": {
+    "description": "Título do diálogo para engadir gasto"
+  },
+  "amount": "Importe (€)",
+  "@amount": {
+    "description": "Etiqueta do campo de importe"
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Botón de cancelar"
+  },
+  "save": "Gardar",
+  "@save": {
+    "description": "Botón de gardar"
+  },
+  "searchCategory": "Speichern",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+  },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "ga",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

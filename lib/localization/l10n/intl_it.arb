@@ -1,0 +1,75 @@
+{
+  "@@locale": "it",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "Titolo dell'applicazione"
+  },
+  "balance": "Saldo",
+  "@balance": {
+    "description": "Testo per il saldo"
+  },
+  "income": "Entrate",
+  "@income": {
+    "description": "Testo per le entrate"
+  },
+  "expense": "Spese",
+  "@expense": {
+    "description": "Testo per le spese"
+  },
+  "addTransaction": "Aggiungi Transazione",
+  "@addTransaction": {
+    "description": "Testo per aggiungere una transazione"
+  },
+  "noData": "Nessun dato",
+  "@noData": {
+    "description": "Testo per nessun dato"
+  },
+  "transactionsTitle": "Transazioni del giorno",
+  "@transactionsTitle": {
+    "description": "Titolo della finestra di dialogo delle transazioni"
+  },
+  "close": "Chiudi",
+  "@close": {
+    "description": "Pulsante di chiusura"
+  },
+  "addIncome": "Aggiungi Entrata",
+  "@addIncome": {
+    "description": "Titolo della finestra di dialogo per aggiungere un'entrata"
+  },
+  "addExpense": "Aggiungi Spesa",
+  "@addExpense": {
+    "description": "Titolo della finestra di dialogo per aggiungere una spesa"
+  },
+  "amount": "Importo (€)",
+  "@amount": {
+    "description": "Etichetta del campo importo"
+  },
+  "cancel": "Annulla",
+  "@cancel": {
+    "description": "Pulsante di annullamento"
+  },
+  "save": "Salva",
+  "@save": {
+    "description": "Pulsante di salvataggio"
+  },
+  "searchCategory": "Speichern",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+   },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "it",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}

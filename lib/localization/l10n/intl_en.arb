@@ -1,0 +1,75 @@
+{
+  "@@locale": "en",
+  "appTitle": "Dinefy",
+  "@appTitle": {
+    "description": "App title"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "Text for balance"
+  },
+  "income": "Income",
+  "@income": {
+    "description": "Text for income"
+  },
+  "expense": "Expense",
+  "@expense": {
+    "description": "Text for expense"
+  },
+  "addTransaction": "Add Transaction",
+  "@addTransaction": {
+    "description": "Text for adding a transaction"
+  },
+  "noData": "No data",
+  "@noData": {
+    "description": "Text for when there is no data"
+  },
+  "transactionsTitle": "Transactions of the day",
+  "@transactionsTitle": {
+    "description": "Title for the transactions dialog"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "addIncome": "Add Income",
+  "@addIncome": {
+    "description": "Title for the add income dialog"
+  },
+  "addExpense": "Add Expense",
+  "@addExpense": {
+    "description": "Title for the add expense dialog"
+  },
+  "amount": "Amount (€)",
+  "@amount": {
+    "description": "Label for the amount field"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "searchCategory": "Speichern",
+  "@searchCategory": {
+    "description": "Speichern-Button"
+  },
+  "register": "Registre",
+  "@register": {
+    "description": "etiqueta de registre"
+  },
+  "logout": "Desconexió",
+  "@logout": {
+    "description": "etiqueta de desconexió"
+  },
+  "changeLanguage": "Llengua",
+  "@changeLanguage": {
+    "description": "etiqueta de llengua"
+  },
+  "localeName": "en",
+  "@localeName": {
+    "description": "Abreviació de la llengua"
+  }
+}
