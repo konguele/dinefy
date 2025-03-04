@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../localization/app_localizations.dart'; // Importar AppLocalizations
+import 'flag_icon.dart'; // Importar el widget FlagIcon
 
 class LanguageSelector extends StatelessWidget {
   final Function(Locale) changeLanguage; // Nuevo parámetro
@@ -7,13 +8,13 @@ class LanguageSelector extends StatelessWidget {
   LanguageSelector({required this.changeLanguage});
 
   final List<Map<String, String>> languages = [
-    {'code': 'es', 'name': 'Español', 'flag': '🇪🇸'},
-    {'code': 'ca', 'name': 'Català', 'flag': '🇦🇩'},
-    {'code': 'eu', 'name': 'Euskara', 'flag': '🇪🇸'},
-    {'code': 'en', 'name': 'English', 'flag': '🇺🇸'},
-    {'code': 'fr', 'name': 'Français', 'flag': '🇫🇷'},
-    {'code': 'it', 'name': 'Italiano', 'flag': '🇮🇹'},
-    {'code': 'de', 'name': 'Deutsch', 'flag': '🇩🇪'},
+    {'code': 'es', 'name': 'Español'},
+    {'code': 'ca', 'name': 'Català'},
+    {'code': 'eu', 'name': 'Euskara'},
+    {'code': 'en', 'name': 'English'},
+    {'code': 'fr', 'name': 'Français'},
+    {'code': 'it', 'name': 'Italiano'},
+    {'code': 'de', 'name': 'Deutsch'},
   ];
 
   @override
@@ -37,7 +38,11 @@ class LanguageSelector extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: languages.map((language) {
                 return ListTile(
-                  leading: Text(language['flag']!, style: TextStyle(fontSize: 24)),
+                  leading: FlagIcon(
+                    locale: language['code']!, // Usar el código del idioma
+                    width: 24,
+                    height: 24,
+                  ),
                   title: Text(language['name']!),
                   onTap: () {
                     changeLanguage(Locale(language['code']!)); // Cambiar el idioma

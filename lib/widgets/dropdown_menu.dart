@@ -45,7 +45,9 @@ class CustomDropdownMenu extends StatelessWidget {
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
-                  LanguageSelector(changeLanguage: changeLanguage), // Pasar la función changeLanguage
+                  LanguageSelector(
+                    changeLanguage: changeLanguage, // Pasar la función changeLanguage
+                  ),
                 ],
               ),
             ),

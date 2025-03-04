@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:table_calendar/table_calendar.dart';
 import '../data/categories.dart'; // Importar las categorías
 import '../widgets/calendar_widget.dart';
@@ -9,6 +10,10 @@ import '../widgets/category_icons.dart' as category_icons;
 import '../widgets/pie_chart_widget.dart' as pie_chart;
 import '../localization/app_localizations.dart'; // Importar AppLocalizations
 import '../widgets/dropdown_menu.dart' as custom; // Importar el nuevo DropdownMenu
+import '../widgets/flag_icon.dart'; // Importar el widget FlagIcon
+import '../widgets/settings_drawer.dart'; // Importar el SettingsDrawer
+import '../providers/settings_provider.dart'; // Importar el SettingsProvider
+import '../models/currency.dart'; // Importar el modelo Currency
 
 class HomePage extends StatefulWidget {
   final bool isLoggedIn; // Nuevo parámetro
@@ -278,6 +283,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final settingsProvider = Provider.of<SettingsProvider>(context);
+
     // Calcular los porcentajes de cada categoría
     Map<String, double> categoryPercentages = calculateCategoryPercentages(transactions);
 
@@ -288,12 +295,38 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(AppLocalizations.of(context)?.appTitle ?? 'Dinefy'), // Usar traducción
         actions: [
+          Builder(
+            builder: (context) {
+              return IconButton(
+                icon: Icon(Icons.settings),
+                onPressed: () {
+                  Scaffold.of(context).openEndDrawer();
+                },
+              );
+            },
+          ),
           custom.CustomDropdownMenu(
             isLoggedIn: widget.isLoggedIn, // Usar el valor de isLoggedIn
             username: widget.username, // Usar el valor de username
             changeLanguage: widget.changeLanguage, // Pasar la función changeLanguage
           ),
         ],
+      ),
+      endDrawer: SettingsDrawer(
+        currencies: [
+          Currency(code: 'USD', symbol: '\$'),
+          Currency(code: 'EUR', symbol: '€'),
+          Currency(code: 'GBP', symbol: '£'),
+          // Agrega más monedas según sea necesario
+        ],
+        selectedCurrency: settingsProvider.selectedCurrency,
+        onCurrencyChanged: (newCurrency) {
+          settingsProvider.setCurrency(newCurrency);
+        },
+        isDarkMode: settingsProvider.isDarkMode,
+        onThemeChanged: (newValue) {
+          settingsProvider.toggleTheme(newValue);
+        },
       ),
       body: Column(
         children: [

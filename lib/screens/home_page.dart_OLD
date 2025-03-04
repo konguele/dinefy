@@ -8,8 +8,20 @@ import '../models/transaction.dart';
 import '../widgets/category_icons.dart' as category_icons;
 import '../widgets/pie_chart_widget.dart' as pie_chart;
 import '../localization/app_localizations.dart'; // Importar AppLocalizations
+import '../widgets/dropdown_menu.dart' as custom; // Importar el nuevo DropdownMenu
+import '../widgets/flag_icon.dart'; // Importar el widget FlagIcon
 
 class HomePage extends StatefulWidget {
+  final bool isLoggedIn; // Nuevo parámetro
+  final String username; // Nuevo parámetro
+  final Function(Locale) changeLanguage; // Nuevo parámetro
+
+  HomePage({
+    required this.isLoggedIn,
+    required this.username,
+    required this.changeLanguage, // Añadir changeLanguage
+  });
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -53,7 +65,7 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text(AppLocalizations.of(context).addTransaction), // Usar traducción
+          title: Text(AppLocalizations.of(context)?.addTransaction ?? 'Add Transaction'), // Usar traducción
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: dailyTransactions.map((transaction) {
@@ -73,7 +85,7 @@ class _HomePageState extends State<HomePage> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: Text(AppLocalizations.of(context).close), // Usar traducción
+              child: Text(AppLocalizations.of(context)?.close ?? 'Close'), // Usar traducción
             ),
           ],
         );
@@ -100,7 +112,7 @@ class _HomePageState extends State<HomePage> {
         return StatefulBuilder(
           builder: (context, setState) {
             return AlertDialog(
-              title: Text(AppLocalizations.of(context).addTransaction), // Usar traducción
+              title: Text(AppLocalizations.of(context)?.addTransaction ?? 'Add Transaction'), // Usar traducción
               content: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -128,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                     controller: amountController,
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
-                      labelText: AppLocalizations.of(context).amount, // Usar traducción
+                      labelText: AppLocalizations.of(context)?.amount ?? 'Amount', // Usar traducción
                     ),
                   ),
                 ],
@@ -136,7 +148,7 @@ class _HomePageState extends State<HomePage> {
               actions: [
                 TextButton(
                   onPressed: () => Navigator.pop(context),
-                  child: Text(AppLocalizations.of(context).cancel), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.cancel ?? 'Cancel'), // Usar traducción
                 ),
                 TextButton(
                   onPressed: () {
@@ -146,7 +158,7 @@ class _HomePageState extends State<HomePage> {
                       Navigator.pop(context);
                     }
                   },
-                  child: Text(AppLocalizations.of(context).save), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.save ?? 'Save'), // Usar traducción
                 ),
               ],
             );
@@ -166,7 +178,7 @@ class _HomePageState extends State<HomePage> {
         return StatefulBuilder(
           builder: (context, setState) {
             return AlertDialog(
-              title: Text(AppLocalizations.of(context).addTransaction), // Usar traducción
+              title: Text(AppLocalizations.of(context)?.addTransaction ?? 'Add Transaction'), // Usar traducción
               content: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -194,7 +206,7 @@ class _HomePageState extends State<HomePage> {
                     controller: amountController,
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
-                      labelText: AppLocalizations.of(context).amount, // Usar traducción
+                      labelText: AppLocalizations.of(context)?.amount ?? 'Amount', // Usar traducción
                     ),
                   ),
                 ],
@@ -202,7 +214,7 @@ class _HomePageState extends State<HomePage> {
               actions: [
                 TextButton(
                   onPressed: () => Navigator.pop(context),
-                  child: Text(AppLocalizations.of(context).cancel), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.cancel ?? 'Cancel'), // Usar traducción
                 ),
                 TextButton(
                   onPressed: () {
@@ -212,7 +224,7 @@ class _HomePageState extends State<HomePage> {
                       Navigator.pop(context);
                     }
                   },
-                  child: Text(AppLocalizations.of(context).save), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.save ?? 'Save'), // Usar traducción
                 ),
               ],
             );
@@ -275,7 +287,14 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context).appTitle), // Usar traducción
+        title: Text(AppLocalizations.of(context)?.appTitle ?? 'Dinefy'), // Usar traducción
+        actions: [
+          custom.CustomDropdownMenu(
+            isLoggedIn: widget.isLoggedIn, // Usar el valor de isLoggedIn
+            username: widget.username, // Usar el valor de username
+            changeLanguage: widget.changeLanguage, // Pasar la función changeLanguage
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -344,8 +363,8 @@ class _HomePageState extends State<HomePage> {
           builder: (context, setState) {
             return AlertDialog(
               title: Text(isIncome
-                  ? AppLocalizations.of(context).addTransaction // Usar traducción
-                  : AppLocalizations.of(context).addTransaction), // Usar traducción
+                  ? AppLocalizations.of(context)?.addTransaction ?? 'Add Transaction' // Usar traducción
+                  : AppLocalizations.of(context)?.addTransaction ?? 'Add Transaction'), // Usar traducción
               content: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -360,7 +379,7 @@ class _HomePageState extends State<HomePage> {
                     controller: amountController,
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
-                      labelText: AppLocalizations.of(context).amount, // Usar traducción
+                      labelText: AppLocalizations.of(context)?.amount ?? 'Amount', // Usar traducción
                     ),
                   ),
                 ],
@@ -368,7 +387,7 @@ class _HomePageState extends State<HomePage> {
               actions: [
                 TextButton(
                   onPressed: () => Navigator.pop(context),
-                  child: Text(AppLocalizations.of(context).cancel), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.cancel ?? 'Cancel'), // Usar traducción
                 ),
                 TextButton(
                   onPressed: () {
@@ -378,7 +397,7 @@ class _HomePageState extends State<HomePage> {
                       Navigator.pop(context);
                     }
                   },
-                  child: Text(AppLocalizations.of(context).save), // Usar traducción
+                  child: Text(AppLocalizations.of(context)?.save ?? 'Save'), // Usar traducción
                 ),
               ],
             );

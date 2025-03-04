@@ -4,14 +4,6 @@ import 'package:intl/intl.dart';
 import 'l10n/messages_all.dart'; // Archivo generado por intl
 
 class AppLocalizations {
-  Locale _locale; // Variable para almacenar el locale actual
-
-  AppLocalizations(this._locale); // Constructor para inicializar el locale
-
-  // Getter para obtener el locale actual
-  Locale get locale => _locale;
-
-  // Método para cargar el locale
   static Future<AppLocalizations> load(Locale locale) {
     final String name =
         locale.countryCode == null ? locale.languageCode : locale.toString();
@@ -21,29 +13,12 @@ class AppLocalizations {
     Intl.defaultLocale = localeName;
 
     return initializeMessages(localeName).then((_) {
-      return AppLocalizations(locale); // Pasar el locale al constructor
+      return AppLocalizations();
     });
   }
 
-  // Método para obtener la instancia de AppLocalizations desde el contexto
   static AppLocalizations of(BuildContext context) {
     return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
-  }
-
-  // Mapa de banderas
-  static const Map<String, String> flagAssets = {
-    'ca': 'assets/flags/ca.png', // Bandera de Cataluña
-    'de': 'assets/flags/de.png', // Bandera de Alemania
-    'en': 'assets/flags/en.png', // Bandera de Inglaterra
-    'es': 'assets/flags/es.png', // Bandera de España
-    'eu': 'assets/flags/eu.png', // Bandera del País Vasco
-    'fr': 'assets/flags/fr.png', // Bandera de Francia
-    'it': 'assets/flags/it.png', // Bandera de Italia
-  };
-
-  // Método para obtener la ruta de la bandera
-  String getFlagAsset(String locale) {
-    return flagAssets[locale] ?? 'assets/flags/en.png'; // Bandera por defecto si no se encuentra
   }
 
   // Textos traducidos

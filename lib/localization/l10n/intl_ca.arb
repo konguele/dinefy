@@ -72,8 +72,6 @@
   "@localeName": {
     "description": "Abreviació de la llengua"
   },
-
-  // Categorías añadidas
   "salary": "Salari",
   "@salary": {
     "description": "Text per al salari"
@@ -298,264 +296,280 @@
   "@pc": {
     "description": "Text per a l'ordinador"
   },
-  "Netflix o plataformas similares": "Netflix o plataformes similars",
-  "@Netflix o plataformas similares": {
+  "netflix": "Netflix",
+  "@netflix": {
     "description": "Text per a Netflix o plataformes similars"
   },
-  "Discoteca": "Discoteca",
-  "@Discoteca": {
+  "discoteca": "Discoteca",
+  "@discoteca": {
     "description": "Text per a la discoteca"
   },
-  "Drogas": "Drogues",
-  "@Drogas": {
+  "drugs": "Drogues",
+  "@drugs": {
     "description": "Text per a les drogues"
   },
-  "Cine": "Cinema",
-  "@Cine": {
+  "cine": "Cinema",
+  "@cine": {
     "description": "Text per al cinema"
   },
-  "Regalo": "Regal",
-  "@Regalo": {
+  "regalo": "Regal",
+  "@regalo": {
     "description": "Text per al regal"
   },
-  "Música": "Música",
-  "@Música": {
+  "music": "Música",
+  "@music": {
     "description": "Text per a la música"
   },
-  "Videojuegos": "Videojocs",
-  "@Videojuegos": {
+  "games": "Videojocs",
+  "@games": {
     "description": "Text per als videojocs"
   },
-  "Caballos": "Cavalls",
-  "@Caballos": {
+  "horse": "Cavalls",
+  "@horse": {
     "description": "Text per als cavalls"
   },
-  "Libros": "Llibres",
-  "@Libros": {
+  "book": "Llibres",
+  "@book": {
     "description": "Text per als llibres"
   },
-  "Multas": "Multes",
-  "@Multas": {
+  "multa": "Multes",
+  "@multa": {
     "description": "Text per a les multes"
   },
-  "Arma de fuego": "Arma de foc",
-  "@Arma de fuego": {
+  "gun": "Arma de foc",
+  "@gun": {
     "description": "Text per a l'arma de foc"
   },
-  "Arma blanca": "Arma blanca",
-  "@Arma blanca": {
+  "knife": "Arma blanca",
+  "@knife": {
     "description": "Text per a l'arma blanca"
   },
-  "Fontanero": "Fontaner",
-  "@Fontanero": {
+  "fontanero": "Fontaner",
+  "@fontanero": {
     "description": "Text per al fontaner"
   },
-  "Electricista": "Electricista",
-  "@Electricista": {
+  "electricista": "Electricista",
+  "@electricista": {
     "description": "Text per a l'electricista"
   },
-  "Carpintero": "Fuster",
-  "@Carpintero": {
+  "carpintero": "Fuster",
+  "@carpintero": {
     "description": "Text per al fuster"
   },
-  "Albañil": "Paleta",
-  "@Albañil": {
+  "albañil": "Paleta",
+  "@albañil": {
     "description": "Text per al paleta"
   },
-  "Ski": "Esquí",
-  "@Ski": {
+  "ski": "Esquí",
+  "@ski": {
     "description": "Text per a l'esquí"
   },
-  "Bolsos": "Bosses",
-  "@Bolsos": {
+  "bag": "Bosses",
+  "@bag": {
     "description": "Text per a les bosses"
   },
-  "Fumar cigarro": "Fumar cigarret",
-  "@Fumar cigarro": {
+  "cigarrette": "Fumar cigarret",
+  "@cigarrette": {
     "description": "Text per a fumar cigarret"
   },
-  "Fumar Vaper": "Fumar Vaper",
-  "@Fumar Vaper": {
+  "vaper": "Fumar Vaper",
+  "@vaper": {
     "description": "Text per a fumar Vaper"
   },
-  "Frutas": "Fruites",
-  "@Frutas": {
+  "fruta": "Fruites",
+  "@fruta": {
     "description": "Text per a les fruites"
   },
-  "Verduras": "Verdures",
-  "@Verduras": {
+  "verdura": "Verdures",
+  "@verdura": {
     "description": "Text per a les verdures"
   },
-  "Ternera": "Vedella",
-  "@Ternera": {
+  "cow": "Vedella",
+  "@cow": {
     "description": "Text per a la vedella"
   },
-  "Pollo": "Pollastre",
-  "@Pollo": {
+  "pollo": "Pollastre",
+  "@pollo": {
     "description": "Text per al pollastre"
   },
-  "Cerdo": "Porc",
-  "@Cerdo": {
+  "pig": "Porc",
+  "@pig": {
     "description": "Text per al porc"
   },
-  "Universidad": "Universitat",
-  "@Universidad": {
+  "universidad": "Universitat",
+  "@universidad": {
     "description": "Text per a la universitat"
   },
-  "Colegio": "Col·legi",
-  "@Colegio": {
+  "colegio": "Col·legi",
+  "@colegio": {
     "description": "Text per al col·legi"
   },
-  "Guarderia": "Guarderia",
-  "@Guarderia": {
+  "guarderia": "Guarderia",
+  "@guarderia": {
     "description": "Text per a la guarderia"
   },
-  "Sushi": "Sushi",
-  "@Sushi": {
+  "sushi": "Sushi",
+  "@sushi": {
     "description": "Text per al sushi"
   },
-  "Paella": "Paella",
-  "@Paella": {
+  "paella": "Paella",
+  "@paella": {
     "description": "Text per a la paella"
   },
-  "Spaghettis": "Espaguetis",
-  "@Spaghettis": {
+  "spaghettis": "Espaguetis",
+  "@spaghettis": {
     "description": "Text per als espaguetis"
   },
-  "Taxi": "Taxi",
-  "@Taxi": {
+  "taxi": "Taxi",
+  "@taxi": {
     "description": "Text per al taxi"
   },
-  "Uber": "Uber",
-  "@Uber": {
+  "uber": "Uber",
+  "@uber": {
     "description": "Text per a Uber"
   },
-  "Cabify": "Cabify",
-  "@Cabify": {
+  "cabify": "Cabify",
+  "@cabify": {
     "description": "Text per a Cabify"
   },
-  "Glovo": "Glovo",
-  "@Glovo": {
+  "glovo": "Glovo",
+  "@glovo": {
     "description": "Text per a Glovo"
   },
-  "Uber eats": "Uber eats",
-  "@Uber eats": {
+  "uberEats": "Uber eats",
+  "@uberEats": {
     "description": "Text per a Uber eats"
   },
-  "Neumáticos": "Neumàtics",
-  "@Neumáticos": {
+  "tire": "Neumàtics",
+  "@tire": {
     "description": "Text per als neumàtics"
   },
-  "Mecánico": "Mecànic",
-  "@Mecánico": {
+  "mecanico": "Mecànic",
+  "@mecanico": {
     "description": "Text per al mecànic"
   },
-  "Zapatos": "Sabates",
-  "@Zapatos": {
+  "shoes": "Sabates",
+  "@shoes": {
     "description": "Text per a les sabates"
   },
-  "Dentista": "Dentista",
-  "@Dentista": {
+  "dentista": "Dentista",
+  "@dentista": {
     "description": "Text per al dentista"
   },
-  "Museo": "Museu",
-  "@Museo": {
+  "museo": "Museu",
+  "@museo": {
     "description": "Text per al museu"
   },
-  "San Valentin": "Sant Valentí",
-  "@San Valentin": {
+  "love": "Sant Valentí",
+  "@love": {
     "description": "Text per a Sant Valentí"
   },
-  "Hotel": "Hotel",
-  "@Hotel": {
+  "hotel": "Hotel",
+  "@hotel": {
     "description": "Text per a l'hotel"
   },
-  "Tren": "Tren",
-  "@Tren": {
+  "tren": "Tren",
+  "@tren": {
     "description": "Text per al tren"
   },
-  "Barco": "Vaixell",
-  "@Barco": {
+  "barco": "Vaixell",
+  "@barco": {
     "description": "Text per al vaixell"
   },
-  "Alcohol": "Alcohol",
-  "@Alcohol": {
+  "alcohol": "Alcohol",
+  "@alcohol": {
     "description": "Text per a l'alcohol"
   },
-  "Crossfit": "Crossfit",
-  "@Crossfit": {
+  "crossfit": "Crossfit",
+  "@crossfit": {
     "description": "Text per al crossfit"
   },
-  "Internet": "Internet",
-  "@Internet": {
+  "internet": "Internet",
+  "@internet": {
     "description": "Text per a Internet"
   },
-  "Peluqueria": "Perruqueria",
-  "@Peluqueria": {
+  "peluqueria": "Perruqueria",
+  "@peluqueria": {
     "description": "Text per a la perruqueria"
   },
-  "In vitro": "In vitro",
-  "@In vitro": {
+  "inVitro": "In vitro",
+  "@inVitro": {
     "description": "Text per a in vitro"
   },
-  "Vestidos": "Vestits",
-  "@Vestidos": {
+  "vestido": "Vestits",
+  "@vestido": {
     "description": "Text per als vestits"
   },
-  "Zapatos mujer": "Sabates de dona",
-  "@Zapatos mujer": {
+  "womenShoes": "Sabates de dona",
+  "@womenShoes": {
     "description": "Text per a les sabates de dona"
   },
-  "Jardinero": "Jardiner",
-  "@Jardinero": {
+  "jardinero": "Jardiner",
+  "@jardinero": {
     "description": "Text per al jardiner"
   },
-  "Helados": "Gelats",
-  "@Helados": {
+  "helados": "Gelats",
+  "@helados": {
     "description": "Text per als gelats"
   },
-  "Lavanderia": "Lavanderia",
-  "@Lavanderia": {
+  "lavanderia": "Lavanderia",
+  "@lavanderia": {
     "description": "Text per a la lavanderia"
   },
-  "Plancha": "Planxa",
-  "@Plancha": {
+  "plancha": "Planxa",
+  "@plancha": {
     "description": "Text per a la planxa"
   },
-  "Costura": "Costura",
-  "@Costura": {
+  "costura": "Costura",
+  "@costura": {
     "description": "Text per a la costura"
   },
-  "Optica": "Òptica",
-  "@Optica": {
+  "optica": "Òptica",
+  "@optica": {
     "description": "Text per a l'òptica"
   },
-  "Amazon": "Amazon",
-  "@Amazon": {
+  "amazon": "Amazon",
+  "@amazon": {
     "description": "Text per a Amazon"
   },
-  "Renta (A pagar)": "Renda (A pagar)",
-  "@Renta (A pagar)": {
+  "rentaPago": "Renda (A pagar)",
+  "@rentaPago": {
     "description": "Text per a la renda (a pagar)"
   },
-  "Sexo": "Sexe",
-  "@Sexo": {
+  "sexo": "Sexe",
+  "@sexo": {
     "description": "Text per al sexe"
   },
-  "Idiomas": "Idiomes",
-  "@Idiomas": {
+  "idiomas": "Idiomes",
+  "@idiomas": {
     "description": "Text per als idiomes"
   },
-  "PS Plus": "PS Plus",
-  "@PS Plus": {
+  "psPlus": "PS Plus",
+  "@psPlus": {
     "description": "Text per a PS Plus"
   },
-  "Xbox pass": "Xbox pass",
-  "@Xbox pass": {
+  "xboxPass": "Xbox pass",
+  "@xboxPass": {
     "description": "Text per a Xbox pass"
   },
-  "Nintendo": "Nintendo",
-  "@Nintendo": {
+  "nintendo": "Nintendo",
+  "@nintendo": {
     "description": "Text per a Nintendo"
+  },
+  "hbo": "HBO",
+  "@hbo": {
+    "description": "Text per a HBO"
+  },
+  "prime": "Prime",
+  "@prime": {
+    "description": "Text per a prime"
+  },
+  "disney": "Disney+",
+  "@disney": {
+    "description": "Text per a Dinsey+"
+  },
+  "avion": "Avió",
+  "@avion": {
+    "description": "Text per a Avió"
   }
 }
